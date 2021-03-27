@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    @font-face {
+        font-family: Kumbh Sans;
+        src: url(https://fonts.google.com/specimen/Kumbh+Sans);
+    }
+}
+
+body {
+   max-width: 375px;
+   height: 575px;
+   background: hsl(185, 75%, 39%); 
+}
+
+.content-main {
+    position: relative;
+    width: 92vw;
+    height: 350px;
+    margin: 25% 5% ;
+    background-color: #fff;  
+    border-radius: 8%;
+
+}
+
+.blue-card {
+    width: 100%;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+
+}
+
+.profile-photo {
+    display: flex;
+    position: absolute;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    top: 89px;
+    left: 125px;
+}
+
+.information-user, h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+.age, .city, h3 {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+/* Line Divison */
+.division {
+    margin-top:  4vh;
+    margin-bottom: 5vh;
+    height: 0.3vw;
+    background-color: hsl(227, 10%, 46%, 0.2);
+
+}
+
+/* Footer of information-use */
+h2 .likes {
+    margin: 0 75px;
+}
+h2 {
+    margin-top: 2px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+h3 .fallows {
+    padding-left: 24px;
+}
+
+h3 .likes {
+    padding-left: 72px;
+}
+
+h3 .photos {
+   padding-left: 80px;
+}
+
+/* Footer */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
